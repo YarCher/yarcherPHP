@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Тест</title>
+
+    <script type="text/javascript">
+
+        var a = prompt("Ввведіть свій вік", "0");
+        var a = parseFloat (a);
+
+        if (a<="6") {
+            document.write("Ви дитина. Алкоголь для вас не існує");
+        }
+        
+        else if (a>"6" && a<"12") {
+            document.write("Ви юнак. Дитяче шампанське ваш варіант");
+        }
+		
+		else if (a>"11"&&a<"18") {
+            document.write("Ви тінейджер. Вам категорично заборонено вживати алкоголь");
+        }
+		
+        else if (a>"17"&&a<"146") {
+            document.write("Ви доросла людина. Вам можна алкоголь ");
+        }
+	    else if (a>"145") {
+            document.write("Ви брехло");
+        }
+        
+        
+    </script>
+
+</head>
+<body>
+</body>
+</html>
