@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Шахмати</title>
+
+    <script type="text/javascript">
+
+         var table = new Array(10);
+
+        for (var i = 0; i < table.length; i++) {
+            table[i] = new Array(10);           
+        }
+
+        for (var row = 0; row < table.length; row++) {
+            for (var col = 0; col < table[row].length; col++) {
+                if ((row + col) % 2 == 1)
+                   document.write(table[row][col] = "<img src='p1.jpg' width='50' height='50'/>");
+				   
+                else
+                    document.write(table[row][col] = "<img src='p2.jpg' width='50' height='50'/>");
+            }
+        }
+		
+
+		 </script>
+	
+
+</head>
+<body>
+</body>
+</html>
